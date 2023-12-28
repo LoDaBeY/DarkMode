@@ -12,6 +12,8 @@ function App() {
       : "light"
   );
 
+  //Don't forget to update the header with passing SetMode to his MainComponent
+
   const theme = useMemo(() => createTheme(getDesignTokens(mode)), [mode]);
 
   return (
